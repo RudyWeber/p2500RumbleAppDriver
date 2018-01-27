@@ -1,0 +1,32 @@
+{
+  "name": "saitek",
+  "version": "1.0.0",
+  "description": "A NodeJS application driver for the Saitek P2500 gamepad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'nope'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RudyWeber/saitek-p2500-driver.git"
+  },
+  "keywords": [
+    "gamepad",
+    "saitek",
+    "p2500",
+    "nodejs",
+    "controller",
+    "driver",
+    "usb"
+  ],
+  "author": "Rudy Weber <webrudy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RudyWeber/saitek-p2500-driver/issues"
+  },
+  "homepage": "https://github.com/RudyWeber/saitek-p2500-driver#readme",
+  "dependencies": {
+    "robotjs": "^0.4.7",
+    "usb": "^1.3.1"
+  }
+}
